@@ -1,0 +1,56 @@
+{
+  "model_name": "Multinomial Naive Bayes",
+  "classifier_repr": "MultinomialNB(alpha=0.5)",
+  "classes": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "trained_at_utc": "2026-10-29T06:51:57+00:00",
+  "random_seed": 42,
+  "test_size": 0.2,
+  "dataset_name": "demo_reviews.csv",
+  "is_demonstration_data": true,
+  "n_train": 360,
+  "n_test": 90,
+  "class_counts": {
+    "neutral": 150,
+    "positive": 150,
+    "negative": 150
+  },
+  "train_class_counts": {
+    "neutral": 120,
+    "positive": 120,
+    "negative": 120
+  },
+  "test_class_counts": {
+    "positive": 30,
+    "negative": 30,
+    "neutral": 30
+  },
+  "vocabulary_size": 330,
+  "cleaning_report": {
+    "rows_read": 450,
+    "removed_missing_text": 0,
+    "removed_unsupported_label": 0,
+    "removed_exact_duplicates": 0,
+    "removed_conflicting_duplicates": 0,
+    "rows_final": 450,
+    "unsupported_labels_seen": [],
+    "class_counts": {
+      "neutral": 150,
+      "positive": 150,
+      "negative": 150
+    }
+  },
+  "warnings": [
+    "Only 450 usable rows (< 1000); the resulting metrics are not a credible estimate of real-world performance.",
+    "Trained on the synthetic demonstration dataset: metrics only prove the software runs."
+  ],
+  "versions": {
+    "python": "3.14.6",
+    "scikit_learn": "1.9.1",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0"
+  }
+}

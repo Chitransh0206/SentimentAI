@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+*.egg-info/
+# Secrets / local config
+.env
+# Generated data and model artifacts (reproduce with the scripts)
+data/raw/*
+data/processed/*
+models/*
+artifacts/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
+!artifacts/.gitkeep
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+!models/sentiment_pipeline.joblib
+!artifacts/metrics.json
+!artifacts/model_metadata.json
